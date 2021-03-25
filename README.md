@@ -1,13 +1,21 @@
+> Angular Some Setup
 - AppModule
-- HttpClient
+- HttpCmodule
 
-### `AppModule`
+### AppModule
+```
 import { HttpClientModule } from "@angular/common/http";
- 
-before use HttpClient
+import { AuthService } from "./share/service.service";
+	
+ imports: [
+    HttpClientModule
+],
+providers: [AuthService],
+```
+>before use HttpClient & Service
 
-### `Service`
-> Service
+### Service
+
 ```
 import { Injectable } from "@angular/core"; 
 import { HttpClient } from "@angular/common/http"; 
