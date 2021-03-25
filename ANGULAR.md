@@ -1,8 +1,7 @@
 > **Angular Some Setup**
-- AppModule
-- HttpCmodule
-- FormModule
-- RouterModule
+- Service System
+- Reactive Form & Regex
+- Router System
 
 ## Service System
 ###### AppModule
