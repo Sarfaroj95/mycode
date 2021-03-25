@@ -4,7 +4,7 @@ import { HttpClientModule } from "@angular/common/http";
 before use HttpClient
 
 ### `Service`
-import { Injectable } from "@angular/core";
+import { Injectable } from "@angular/core"; <br/>
 import { HttpClient } from "@angular/common/http";
 import { Observable } from "rxjs";
 
@@ -16,7 +16,7 @@ import { Observable } from "rxjs";
 
 export class AuthService { 
 
- private baseurl = environment.url;
+ private baseurl = environment.url; <br/>
  private OptionWhatisForUrl = this.baseurl + "whatisfor/";
 
  public getData(): Observable<any[]> {
