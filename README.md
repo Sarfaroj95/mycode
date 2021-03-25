@@ -1,10 +1,11 @@
-> Angular Some Setup
+> **Angular Some Setup**
 - AppModule
 - HttpCmodule
 - FormModule
 - RouterModule
 
-### AppModule
+## Service System
+###### AppModule
 ```
 import { HttpClientModule } from "@angular/common/http";
 import { AuthService } from "./share/service.service";
@@ -16,7 +17,7 @@ providers: [AuthService],
 ```
 >before use HttpClient & Service
 
-### Service
+###### Service ts
 
 ```
 import { Injectable } from "@angular/core"; 
@@ -38,7 +39,8 @@ export class AuthService {
 }
 ```
 
-### FormModule
+## Reactive Form
+###### AppModule
 
 ```
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
@@ -51,7 +53,7 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 >Before Reactive FormModule
 
-####  Used tc File
+######  Used component tc File
 ```
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 
@@ -67,8 +69,8 @@ import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 
 ```
 ###### Validator regex
-> "^[a-zA-Z ]*$" For name
-> "^[1-9][0-9,]+$" For Number
+> "^[a-zA-Z ]*$" For name <br/>
+> "^[1-9][0-9,]+$" For Number <br/>
 > "^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$" For Email ID
 
 ###### Inside Html
