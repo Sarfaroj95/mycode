@@ -32,6 +32,8 @@ export class AuthService {
  private baseurl = environment.url; 
  private OptionWhatisForUrl = this.baseurl + "whatisfor/";
 
+constructor(private http: HttpClient) { }
+
  public getData(): Observable<any[]> {
     return this.http.get<any[]>(this.OptionWhatisForUrl);
   }
