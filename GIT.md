@@ -1,2 +1,2 @@
 ## GIT
-> git pull origin main pull from main branch
+> git pull origin main [pull from main branch]
