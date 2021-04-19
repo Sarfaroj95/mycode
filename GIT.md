@@ -1,10 +1,11 @@
 ## GIT
->git status
->git add .
->git commit -m 'commit'
->git push -u origin master
-
-
+```
+git status
+git add .
+git commit -m 'commit'
+git push -u origin master
+```
+**Pull code from others branch**
 > git pull origin main [pull from main branch]
 ## GIT STASH & POP
 -------------------
