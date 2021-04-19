@@ -2,6 +2,19 @@
 - Service System
 - Reactive Form & Regex
 - Router System
+## Angular CMD
+```
+ng new project_name
+ng serve | ng s
+ng g c com_name [ components ]
+ng g s service_name [ Service ]
+ng g m service_name [ Module]
+ng g c component_name --skip-import
+ng g m name-module –routing 
+
+ng build 
+ng build --prod
+```
 
 ## Service System
 ###### AppModule
