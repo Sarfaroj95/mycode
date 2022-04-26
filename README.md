@@ -110,7 +110,8 @@ import { ChartsComponent } from './components/charts/charts.component';
 
 
 const routes: Routes = [
-  { path: '', component: DataGridComponent },
+  { path: '', redirectTo: '/login', pathMatch: 'full'},
+  { path: 'login', component: LoginComponent},
   { path: 'charts', component: ChartsComponent }
 ];
 
