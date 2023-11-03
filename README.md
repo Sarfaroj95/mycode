@@ -5,12 +5,13 @@
 ## Angular CMD
 ```
 ng new project_name
-ng serve | ng s
-ng g c com_name [ components ]
-ng g s service_name [ Service ]
-ng g m service_name [ Module]
+npm start [ Run project]
+ng serve | ng s [ Run project]
+ng g c com_name [ Create components ]
+ng g s service_name [ create  Service ]
+ng g m service_name [ Create  Module]
 ng g c component_name --skip-import
-ng g m name-module –routing 
+ng g m name-module –routing [ Create router Module ]
 
 ng build 
 ng build --prod
@@ -88,7 +89,7 @@ import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 > "^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$" For Email ID
 
 ###### Inside Html
-> [formGroup]="steponeForm" (ngSubmit)="onSubmit()"
+> [formGroup]="loginForm" (ngSubmit)="onSubmit()"
 
 ## Router System
 ###### AppModule
