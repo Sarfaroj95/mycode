@@ -14,8 +14,9 @@ git push -u -f bitbucket master
 ```
 1. git stash
 2. git pull origin QA
-3. git stash pop
-
+3. git 
+4. git stash -m 'save-code'
+5. git stash pop
 ```
 > You can do from your VS Code left side
     1. Click on souce Control 
