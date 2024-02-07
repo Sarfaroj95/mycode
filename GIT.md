@@ -8,6 +8,10 @@ git push -u -f bitbucket master
 ```
 **Pull code from others branch**
 > git pull origin main [pull from main branch]
+> git clone https://github.com/Sarfaroj95/angular-unit-test.git
+
+If you want to clone perticular Branch then 
+> git clone -b master https://github.com/Sarfaroj95/angular-unit-test.git
 
 ## GIT STASH & POP
 
