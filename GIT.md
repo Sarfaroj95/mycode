@@ -2,6 +2,8 @@
 ```
 git status
 git add .
+git branch
+git switch (branch name - dev)
 git commit -m 'commit'
 git push -u origin master
 git push -u -f bitbucket master
