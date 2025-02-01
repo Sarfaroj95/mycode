@@ -31,12 +31,12 @@ git stash pop
 > git clone -b master https://github.com/Sarfaroj95/angular-unit-test.git
 
 **You can do from your VS Code left side**
-   > 1. Click on souce Control 
-   > 2. Then click on three dod ...
-   > 3. Stash Scroll below Stash Section -> Any comments
-   > 4. Pop Stash Section -> Pop Latest Stash or Pop Stash with commects
+   > Click on souce Control <br/>
+   > Then click on three dod ... <br/>
+   > Stash Scroll below Stash Section -> Any comments <br/>
+   > Pop Stash Section -> Pop Latest Stash or Pop Stash with commects
 
 **Basic Part in Git**
-   > 1. git config --global --list [Check current user]
-   > 2. git config --global user.name "User"
-   > 3. git config --global user.email "user@example.com"
+   > git config --global --list [Check current user] <br/>
+   > git config --global user.name "User" <br/>
+   > git config --global user.email "user@example.com"
