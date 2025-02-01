@@ -3,6 +3,7 @@
 git clone https://github.com/example.repo/example.git
 git status
 git add .
+git add [file name one by one which file you want to push code]
 git branch
 git switch (branch name - dev)
 git commit -m 'commit'
