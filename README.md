@@ -1,4 +1,4 @@
-> **Angular Some Setup**
+## Angular Some Setup
 - Service System
 - Reactive Form & Regex
 - Router System
