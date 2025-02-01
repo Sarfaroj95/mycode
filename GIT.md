@@ -25,10 +25,10 @@ git stash pop
 > git pull origin main [pull from main branch] <br/>
 > git clone https://github.com/Sarfaroj95/angular-unit-test.git
 
-* If you want to clone perticular Branch then 
+**If you want to clone perticular Branch then**
 > git clone -b master https://github.com/Sarfaroj95/angular-unit-test.git
 
-* You can do from your VS Code left side
+**You can do from your VS Code left side**
    > 1. Click on souce Control 
    > 2. Then click on three dod 
    > 3. Stash Scroll below Stash Section -> Any comments
