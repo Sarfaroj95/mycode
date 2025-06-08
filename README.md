@@ -15,6 +15,12 @@ ng g m name-module –routing [ Create router Module ]
 
 ng build 
 ng build --prod
+ng test [Entire Project]
+ng test --include src/app/components/**/*.spec.ts [Componenets Wise]
+
+fdescribe('My coponent', () => );
+xdescribe('My coponent', () => );
+
 ```
 
 ## Service System
