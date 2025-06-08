@@ -18,8 +18,8 @@ ng build --prod
 ng test [Entire Project]
 ng test --include src/app/components/**/*.spec.ts [Componenets Wise]
 
-fdescribe('My coponent', () => );
-xdescribe('My coponent', () => );
+fdescribe('My coponent', () => ); [Exicute function only]
+xdescribe('My coponent', () => ); [Skip function only]
 
 ```
 
