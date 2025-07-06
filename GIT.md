@@ -21,6 +21,8 @@ git pull origin QA
 git status
 git stash -m 'save-code'
 git stash pop
+git stash list
+git stash pop stash@{1}
 ```
 
 **Pull code from others branch**
