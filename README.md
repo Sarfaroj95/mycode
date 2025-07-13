@@ -17,6 +17,7 @@ ng build
 ng build --prod
 ng test [Entire Project]
 ng test --include src/app/components/**/*.spec.ts [Componenets Wise]
+ng test --code-coverage [Coverage file will create then go that file open index.html file]
 
 fdescribe('My coponent', () => ); [Exicute function only]
 xdescribe('My coponent', () => ); [Skip function only]
