@@ -10,6 +10,7 @@ git switch (branch name - dev)
 git commit -m 'commit'
 git push -u origin master
 git push -u -f bitbucket master
+git merge --quit
 git commit --amend -m "New commit message"
 ```
 
