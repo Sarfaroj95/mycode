@@ -12,6 +12,22 @@ git push -u origin master
 git push -u -f bitbucket master
 git commit --amend -m "New commit message"
 ```
+| git CLI  | Description |
+|----------|------------|
+|git clone | clone any public repo in your local machine|
+|git init| initialize git|
+|git status | check status for creent any changes|
+|git add . | Add all changes file |
+|git add README.md | only README.md file add |
+|git branch | check current branch |
+|git fetch | Update repo |
+|git switch dev | switch branch |
+|git commit -m "message" | put message |
+|git push -u origin master | push code in repo |
+|git commit --amend -m "Message"| message|
+
+
+
 
 ## GIT STASH & POP
 
@@ -21,6 +37,11 @@ git pull origin QA
 git status
 git stash -m 'save-code'
 git stash pop
+```
+## GIT Granph
+```
+git log --graph --oneline -10
+git log --graph --oneline -all
 ```
 
 **Pull code from others branch**
