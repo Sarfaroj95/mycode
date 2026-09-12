@@ -10,6 +10,7 @@ git switch (branch name - dev)
 git commit -m 'commit'
 git push -u origin master
 git push -u -f bitbucket master
+git merge --quit
 git commit --amend -m "New commit message"
 ```
 | git CLI  | Description |
@@ -37,6 +38,8 @@ git pull origin QA
 git status
 git stash -m 'save-code'
 git stash pop
+git stash list
+git stash pop stash@{1}
 ```
 ## GIT Granph
 ```
