@@ -1,4 +1,4 @@
-## BASIC GIT 2026
+## BASIC GIT Sep 2026
 ```
 git clone https://github.com/example.repo/example.git
 git status
